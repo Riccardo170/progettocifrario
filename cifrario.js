@@ -6,7 +6,7 @@ var testodecifrato="";
 var chiave= document.getElementById("chiave").value;
 
 console.log(testochiaro);
-console.log(chiave);
+console.log((posizione + chiave) % 26);
 
 for(var i=0; i<testochiaro.length;i++){
     var posizione= alfabeto.indexOf(testochiaro[i]);

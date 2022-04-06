@@ -7,14 +7,16 @@
         <h1>Cifrario di cesare</h1>
         <br>
         <br>
+        <p><b>Inserire ; tra una chiave numerica e l'altra (no lettere nello spazio delle chiavi)</b></p>
+        <br>
         <p>inserire testo da cifrare</p>
-        <input type="text" id="testochiaro" placeholder="testo da cifrare"><input type="number" id="chiave" placeholder="chiave">
+        <input type="text" id="testochiaro" placeholder="testo da cifrare"><input type="text" id="chiavi" placeholder="XX;XX;XX....">
         <button type="button" value="cifra" id="cifra" onclick="crittografia()">CIFRA</button>
         <br>
         <br>
         Testo cifrato:<p id="testoc"></p>
         Testo decifrato:<p id="testod"></p>
 
-        <script src="index.js"></script>
+        <script src="cifrario.js"></script>
     </body>
 </html>
